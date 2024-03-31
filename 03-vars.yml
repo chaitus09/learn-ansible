@@ -28,6 +28,6 @@
 #        msg: "{{ OUTPUT.stdout }}"
 #
 #
-  roles:
-    - demo
+#  roles:
+#    - demo
 
