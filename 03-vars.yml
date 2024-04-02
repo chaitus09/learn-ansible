@@ -21,13 +21,13 @@
     - name: Print OUTPUT of previous task
       ansible.builtin.debug:
         msg: "{{ OUTPUT }}"
-#
-#    # Retrive the OUTPUT variable using JSON query
-#    - name: Print OUTPUT of previous task with only output of shell command
-#      ansible.builtin.debug:
-#        msg: "{{ OUTPUT.stdout }}"
-#
-#
+
+    # Retrive the OUTPUT variable using JSON query
+    - name: Print OUTPUT of previous task with only output of shell command
+      ansible.builtin.debug:
+        msg: "{{ OUTPUT.stdout }}"
+
+
   roles:
     - demo
 
